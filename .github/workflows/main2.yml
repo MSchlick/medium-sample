@@ -26,7 +26,6 @@ jobs:
         with:
           name: build
           path: build
-    needs: checkout
   deploy:
     name: Deploy
     needs: build
